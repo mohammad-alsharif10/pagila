@@ -1,4 +1,4 @@
-package com.monolith.pagila;
+package com.monolith.pagila.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

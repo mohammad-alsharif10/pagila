@@ -1,7 +1,8 @@
-package com.monolith.pagila;
+package com.monolith.pagila.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
@@ -15,6 +16,8 @@ import java.time.OffsetDateTime;
 @Entity
 @Table(name = "payment")
 public class Payment {
+
+    @Id
     @ColumnDefault("nextval('payment_payment_id_seq'::regclass)")
     @Column(name = "payment_id", nullable = false)
     private Integer paymentId;
