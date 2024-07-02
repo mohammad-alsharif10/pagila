@@ -11,7 +11,7 @@
     <groupId>com.monolith</groupId>
     <artifactId>pagila</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pagila</name>
+    <name>pagila-postgres</name>
     <description>pagila</description>
     <url/>
     <licenses>
